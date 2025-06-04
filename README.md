@@ -15,12 +15,12 @@ A simple, user-friendly desktop YouTube downloader built with Python. This GUI-b
 
 ---
 
-## Run with `main.exe` (Recommended for Windows)
+## Run with `yt_downloader.exe` (Recommended for Windows)
 
 No setup needed! Just run:
 
 ```
-main.exe
+yt_downloader.exe
 ```
 
 >  No Python installation required  
@@ -66,11 +66,15 @@ pyinstaller --onefile --windowed --icon=icon.ico main.py
 ##  Project Structure
 
 ```
-├── main.py               # Main Python script
-├── main.exe              # Standalone Windows executable
-├── requirements.txt      # Python dependencies
-├── README.md             # Project documentation
-└── icon.ico              # Optional app icon (used in .exe)
+Youtube-Downloader/
+├── .gitignore             # Git ignored files
+├── LICENSE                # MIT License
+├── README.md              # Project documentation
+├── icon.ico               # Application icon
+├── new.py                 # Older version using youtube_dl (archived)
+├── requirements.txt       # Python dependencies
+├── yt-dlp.py              # Main application using yt-dlp
+├── yt_downloader.exe      # Compiled Windows executable
 ```
 
 ---
